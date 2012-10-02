@@ -1,0 +1,62 @@
+/* Default theme CSS */
+.defaultDot{
+	background: #fff;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border: solid 1px #ed1f27;
+	position:absolute;
+	z-index:1;
+	left:0;
+	top:0;
+	padding:0px;
+	color:#686868;
+	overflow:hidden;
+}
+.defaultDot p{
+	margin:0;
+	padding:0;
+}
+.labelTxt, .showHideBtn{
+	padding:0;
+	margin:0	
+}
+.labelTxt{	
+	padding:10px 0px 10px 10px;
+	margin-right: 10px;
+	float:left;
+	overflow:hidden;
+	display:inline-block;
+	white-space:nowrap;
+	position:absolute;
+	overflow-y:auto;
+	min-width: 300px;
+}
+
+.labelTxt img {
+	display: block;
+	padding: 0 5px 10px 0;
+}
+.showHideBtn{
+	float:right;
+	background:#fff;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+	display:inline-block;
+	background: transparent url(../images/comp_open_close_icn.png) no-repeat left top;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+}
+.hideBtn{
+	background-position:left -30px;
+	margin: 2px 2px 0 0 !important;
+}
+.addScroll{
+	overflow:scroll
+}
+
+/* You can write your own CSS to apply color theme */
+
+#addDot_img .mainImage {display: block; margin: 40px auto 40px auto;}
