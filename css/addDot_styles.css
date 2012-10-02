@@ -47,16 +47,17 @@
 	-webkit-border-radius: 20px;
     -moz-border-radius: 20px;
 	display:inline-block;
-	background: transparent url(../images/solid-bg.png) no-repeat left top;
-	width:30px;
-	height:30px;
+	background: transparent url(../images/comp_open_close_icn.png) no-repeat left top;
+	width:40px;
+	height:39px;
 	cursor:pointer;
 	color: #fff;
 	text-align: center;
-	line-height: 32px;
+	line-height: 42px;
+	font-size: 16px;
 }
 .hideBtn{
-	background-position:left -30px;
+	background-position:left -40px;
 	margin: 2px 2px 0 0 !important;
 }
 .addScroll{
@@ -65,4 +66,5 @@
 
 /* You can write your own CSS to apply color theme */
 
+#addDot_img {font: 14px/18px 'OpenSansRegular', Arial, Helvetica, sans-serif;}
 #addDot_img .mainImage {display: block; margin: 40px auto 40px auto;}
